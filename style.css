@@ -102,13 +102,19 @@
     border: 3px solid white;
     margin-bottom: 1%;
 }
+@media only screen and (max-width: 1300px){
+    .bgimg{
+        background-image: url(tt.jpg);
+        background-size: 100% 100%;
+        height:1000px}
+}
 @media only screen and (max-width: 1200px){
     
 
     .bgimg{
         background-image: url(tt.jpg);
         background-size: 100% 100%;
-        height: 100vh;}
+        height: 100%;}
     .menu{
         width: 100%;
         background-color: rgba(0, 0, 0, .5);
@@ -179,7 +185,7 @@
     .bgimg{
         background-image: url(tt.jpg);
         background-size: 100% 100%;
-        height: 100%;}
+        height: 130vh;}
     .menu{
         width: 100%;
         background-color: rgba(0, 0, 0, .5);
